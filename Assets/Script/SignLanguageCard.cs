@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,10 +8,11 @@ using UnityEngine.UI;
 public class SignLanguageCard : ScriptableObject
 {
     public Sprite image;
-    public string Answer;
+    public string answer;
 
     public bool IsTrue(string text)
     {
-        return text == Answer;
+        text = text.Remove(text.Length - 1);
+        return string.Equals(text, answer, StringComparison.OrdinalIgnoreCase);
     }
 }
