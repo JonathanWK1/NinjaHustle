@@ -6,6 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using DG.Tweening;
 using static UnityEditor.Progress;
 
 public class GameManager : MonoBehaviour
@@ -24,8 +25,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] Canvas GameOverCanvas;
 
     List<SignLanguageCard> currCards = new List<SignLanguageCard>();
+    List<GameObject> currCardObjects = new List<GameObject>();
 
     List<SignLanguageCard> allCards;
+
+
 
     int maxCurrCard;
     float timeOut;
@@ -37,6 +41,7 @@ public class GameManager : MonoBehaviour
         TimerText.text = Convert.ToInt32(timeOut).ToString();
         allCards = Resources.LoadAll<SignLanguageCard>("Sign Language Card/").ToList();
         SpawnCards();
+        DrawCards();
     }
 
     // Update is called once per frame
@@ -63,7 +68,7 @@ public class GameManager : MonoBehaviour
         {
             PlayerHPBar.value -= EnemyDamage;
         }
-        
+
         if (EnemyHPBar.value <= 0 || PlayerHPBar.value <= 0)
         {
             Time.timeScale = 0f;
@@ -83,16 +88,30 @@ public class GameManager : MonoBehaviour
 
     public void onInputTextChange(string name)
     {
-        if (name.Length == 0) return;
+        if (name.Trim().Length == 0) return;
         if (name[name.Length - 1] == ' ' && currCards[0].IsTrue(name))
         {
-            currCards.RemoveAt(0);
-            SpawnCards();
+            PopCards();
             ResetTimer(true);
-            
+
         }
     }
 
+    public void PopCards()
+    {
+        currCardObjects[0].transform.DOScale(Vector3.zero, 0.2f).SetEase(Ease.InBack).WaitForCompletion();
+
+        for (int i = currCardObjects.Count - 1; i > 0; i--)
+        {
+            currCardObjects[i].transform.DOMoveX(currCardObjects[i-1].transform.position.x, 0.2f).SetEase(Ease.InBounce);
+        }
+
+        currCards.RemoveAt(0);
+        currCardObjects.RemoveAt(0);
+
+        SpawnCards();
+        DrawCard();
+    }
     public void SpawnCards()
     {
         while (currCards.Count < maxCurrCard)
@@ -100,15 +119,12 @@ public class GameManager : MonoBehaviour
             int randInt = UnityEngine.Random.Range(0, allCards.Count);
             currCards.Add(allCards[randInt]);
         }
-
-        DrawCards();
     }
 
     public void DrawCards()
     {
         int i = 0;
         Vector3 spawnPosition = SignLanguageContainer.localPosition;
-
         foreach (SignLanguageCard card in currCards)
         {
             GameObject cardObject = Instantiate(SignLanguageCardPrefab, SignLanguageContainer);
@@ -116,7 +132,19 @@ public class GameManager : MonoBehaviour
             RectTransform cardTransform = cardObject.GetComponent<RectTransform>();
             image.sprite = card.image;
             cardObject.transform.localPosition = new Vector3(spawnPosition.x + i * (cardTransform.rect.width + SpaceBetweenCards), spawnPosition.y,spawnPosition.z);
+            currCardObjects.Add(cardObject);
             i++;
         }
+    }
+
+    public void DrawCard()
+    {
+        Vector3 spawnPosition = SignLanguageContainer.localPosition;
+        GameObject cardObject = Instantiate(SignLanguageCardPrefab, SignLanguageContainer);
+        Image image = cardObject.GetComponent<Image>();
+        RectTransform cardTransform = cardObject.GetComponent<RectTransform>();
+        image.sprite = currCards[maxCurrCard - 1].image;
+        cardObject.transform.localPosition = new Vector3(spawnPosition.x + (maxCurrCard - 1) * (cardTransform.rect.width + SpaceBetweenCards), spawnPosition.y, spawnPosition.z);
+        currCardObjects.Add(cardObject);
     }
 }

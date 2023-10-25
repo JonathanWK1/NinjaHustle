@@ -1,8 +1,6 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using DG.Tweening;
 
 [CreateAssetMenu(fileName = "New Card")]
 public class SignLanguageCard : ScriptableObject
@@ -12,7 +10,7 @@ public class SignLanguageCard : ScriptableObject
 
     public bool IsTrue(string text)
     {
-        text = text.Remove(text.Length - 1);
+        text = text.Trim();
         return string.Equals(text, answer, StringComparison.OrdinalIgnoreCase);
     }
 }
