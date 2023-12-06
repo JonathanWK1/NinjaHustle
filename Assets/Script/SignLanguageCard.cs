@@ -1,16 +1,15 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
+using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "New Card")]
-public class SignLanguageCard : ScriptableObject
+public class SignLanguageCard : MonoBehaviour
 {
-    public Sprite image;
-    public string answer;
 
-    public bool IsTrue(string text)
+    [SerializeField] Image cardImage;
+
+    public void InitializeCard(SignLanguageCardData data)
     {
-        text = text.Trim();
-        return string.Equals(text, answer, StringComparison.OrdinalIgnoreCase);
+        cardImage.sprite = data.image;
     }
 }

@@ -1736,6 +1736,33 @@ MonoBehaviour:
   SignLanguageContainer: {fileID: 1911084500}
   SignLanguageCardPrefab: {fileID: 5481180675925450326, guid: aefdcd5f956b22143ae0af1ad038dd18, type: 3}
   GameOverCanvas: {fileID: 1464931275}
+  cardImage:
+  - {fileID: 21300000, guid: 34fed309c23cb5d458215ce89aa06e02, type: 3}
+  - {fileID: 21300000, guid: 6d912743ba3dc5e47aa2bc9d54b045fd, type: 3}
+  - {fileID: 21300000, guid: bc0a1d6b6de72cd4fa01a2c70433254f, type: 3}
+  - {fileID: 21300000, guid: 22c05ef3b92eee14a97d09326dded108, type: 3}
+  - {fileID: 21300000, guid: aff2e0e06edf5d44eafd2be9b43cf53d, type: 3}
+  - {fileID: 21300000, guid: f40ff520439823e45bae65f494257d27, type: 3}
+  - {fileID: 21300000, guid: 18aacee54e057de499c678f4262f19ed, type: 3}
+  - {fileID: 21300000, guid: aad5f3dab281aa748b46eb4cfa574b7d, type: 3}
+  - {fileID: 21300000, guid: 3d170c0430ea7b4478260bf997165486, type: 3}
+  - {fileID: 21300000, guid: b4dce9072ff07224498d34011d214cba, type: 3}
+  - {fileID: 21300000, guid: 09a0e70ece3e2b0499192c1c4cd73618, type: 3}
+  - {fileID: 21300000, guid: f0823ce0dfc952243a26a3a641d7fff6, type: 3}
+  - {fileID: 21300000, guid: b0d8db0e2b36691428b4917f21c5a100, type: 3}
+  - {fileID: 21300000, guid: 5a126de55a46c51469ead67cf8b55179, type: 3}
+  - {fileID: 21300000, guid: 2b1d472dd8689b048bab0aece3d5b99e, type: 3}
+  - {fileID: 21300000, guid: 9583c0c8afc110a4d8a8fca8aafea762, type: 3}
+  - {fileID: 21300000, guid: 78be796c6c9da914ab59eab9b36e8140, type: 3}
+  - {fileID: 21300000, guid: b14b247d7fd6e884195032e83b7c4e8a, type: 3}
+  - {fileID: 21300000, guid: 03d85e67c30a18642adb35168e5dc5e4, type: 3}
+  - {fileID: 21300000, guid: 012b6cfea3be1d947883a8dbcde81c84, type: 3}
+  - {fileID: 21300000, guid: f93d492cccd109c4d8a5e27485c3af29, type: 3}
+  - {fileID: 21300000, guid: 6298f987a122ac345b5822924a3417b9, type: 3}
+  - {fileID: 21300000, guid: 7aedd8775f74bcf47a9dc6478acc93d5, type: 3}
+  - {fileID: 21300000, guid: f3fc6147fc4d9b24ba004128c1deae89, type: 3}
+  - {fileID: 21300000, guid: 2bae7a928f0db4942a442f80102bf582, type: 3}
+  - {fileID: 21300000, guid: 2c6cd5d0400b0a84292a3f2f8629c818, type: 3}
 --- !u!4 &909753438
 Transform:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using DG.Tweening;
 using static UnityEditor.Progress;
+using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,25 +25,46 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject SignLanguageCardPrefab;
     [SerializeField] Canvas GameOverCanvas;
 
-    List<SignLanguageCard> currCards = new List<SignLanguageCard>();
+    [SerializeField] List<Sprite> cardImage;
+
+    List<SignLanguageCardData> currCards = new List<SignLanguageCardData>();
     List<GameObject> currCardObjects = new List<GameObject>();
 
-    List<SignLanguageCard> allCards;
+    List<SignLanguageCardData> allCards;
 
 
 
-    int maxCurrCard;
+    const int maxCurrCard = 5;
     float timeOut;
     void Start()
     {
+        //MakeScriptable();
+        TextInput.ActivateInputField();
         Time.timeScale = 1;
-        maxCurrCard = 5;
         timeOut = MaxTimeOut;
         TimerText.text = Convert.ToInt32(timeOut).ToString();
-        allCards = Resources.LoadAll<SignLanguageCard>("Sign Language Card/").ToList();
+        allCards = Resources.LoadAll<SignLanguageCardData>("Sign Language Card/").ToList();
         SpawnCards();
         DrawCards();
     }
+
+    //void MakeScriptable()
+    //{
+    //    foreach (Sprite sprite in cardImage)
+    //    {
+    //        string path = "Assets/Resources/Sign Language Card/";
+    //        // MyClass is inheritant from ScriptableObject base class
+    //        SignLanguageCard example = ScriptableObject.CreateInstance<SignLanguageCard>();
+    //        // path has to start at "Assets"
+    //        example.answer = sprite.name;
+    //        example.image = sprite;
+    //        path += "Card " + sprite.name + ".asset";
+
+    //        AssetDatabase.CreateAsset(example, path);
+    //        AssetDatabase.SaveAssets();
+    //        AssetDatabase.Refresh();
+    //    }
+    //}
 
     // Update is called once per frame
     void Update()
@@ -79,6 +101,7 @@ public class GameManager : MonoBehaviour
 
         TimerText.text = Convert.ToInt32(timeOut).ToString();
         timeOut = MaxTimeOut;
+        TextInput.ActivateInputField();
     }
     public void ResetGame()
     {
@@ -88,16 +111,27 @@ public class GameManager : MonoBehaviour
 
     public void onInputTextChange(string name)
     {
+        TextInput.ActivateInputField();
         if (name.Trim().Length == 0) return;
-        if (name[name.Length - 1] == ' ' && currCards[0].IsTrue(name))
+        if (name[name.Length - 1] == ' ')
         {
-            PopCards();
-            ResetTimer(true);
-
+            if (currCards[0].IsTrue(name))
+            {
+                PopCard();
+                ResetTimer(true);
+            }
+            else
+            {
+                ShakeCard();
+                ResetTimer(false);
+            }
         }
     }
-
-    public void PopCards()
+     void ShakeCard()
+    {
+        currCardObjects[0].transform.DOShakeRotation(0.2f, 40,80);
+    }
+    void PopCard()
     {
         currCardObjects[0].transform.DOScale(Vector3.zero, 0.2f).SetEase(Ease.InBack).WaitForCompletion();
 
@@ -110,9 +144,9 @@ public class GameManager : MonoBehaviour
         currCardObjects.RemoveAt(0);
 
         SpawnCards();
-        DrawCard();
+        DrawCard(currCards[maxCurrCard-1]);
     }
-    public void SpawnCards()
+    void SpawnCards()
     {
         while (currCards.Count < maxCurrCard)
         {
@@ -121,30 +155,25 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void DrawCards()
+    void DrawCards()
     {
-        int i = 0;
         Vector3 spawnPosition = SignLanguageContainer.localPosition;
-        foreach (SignLanguageCard card in currCards)
+        foreach (SignLanguageCardData card in currCards)
         {
-            GameObject cardObject = Instantiate(SignLanguageCardPrefab, SignLanguageContainer);
-            Image image = cardObject.GetComponent<Image>();
-            RectTransform cardTransform = cardObject.GetComponent<RectTransform>();
-            image.sprite = card.image;
-            cardObject.transform.localPosition = new Vector3(spawnPosition.x + i * (cardTransform.rect.width + SpaceBetweenCards), spawnPosition.y,spawnPosition.z);
-            currCardObjects.Add(cardObject);
-            i++;
+            DrawCard(card);
         }
     }
 
-    public void DrawCard()
+    void DrawCard(SignLanguageCardData cardData)
     {
         Vector3 spawnPosition = SignLanguageContainer.localPosition;
         GameObject cardObject = Instantiate(SignLanguageCardPrefab, SignLanguageContainer);
-        Image image = cardObject.GetComponent<Image>();
+
+        SignLanguageCard signLanguageCard = cardObject.GetComponent<SignLanguageCard>();
+        signLanguageCard.InitializeCard(cardData);
+
         RectTransform cardTransform = cardObject.GetComponent<RectTransform>();
-        image.sprite = currCards[maxCurrCard - 1].image;
-        cardObject.transform.localPosition = new Vector3(spawnPosition.x + (maxCurrCard - 1) * (cardTransform.rect.width + SpaceBetweenCards), spawnPosition.y, spawnPosition.z);
+        cardObject.transform.localPosition = new Vector3(spawnPosition.x + (currCardObjects.Count) * (cardTransform.rect.width + SpaceBetweenCards), spawnPosition.y, spawnPosition.z);
         currCardObjects.Add(cardObject);
     }
 }
