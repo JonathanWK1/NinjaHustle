@@ -1,0 +1,2186 @@
+fileFormatVersion: 2
+guid: e2cadeb46c17d3247bdd49f0a2833e79
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy.Mass_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 599
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d26d2f29a8f3c649aaa966057f52c01
+      internalID: 409861154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 599
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771bc281f03b50345a93b58797a6b64a
+      internalID: -2116383964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 599
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06797db1050a222448b1c0a921d9bc56
+      internalID: -1148446986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 599
+        width: 84
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7b2440e6647e045afbc03c8fa61f88
+      internalID: 1974973616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_4
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 599
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fe87f6cbaf9f04ca6d14194510e04a
+      internalID: -1483578383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_5
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 598
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4112e84875ec12240aab3560937ea0a6
+      internalID: -902847342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_6
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 598
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62e43aa58b3ccb4bb5f0437e8b0cf5a
+      internalID: 758417119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_7
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 598
+        width: 84
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f3491c140d30149bf52124be351646
+      internalID: -565830617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_8
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 598
+        width: 84
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392cbda844fa4074b9bf1cecbaed9363
+      internalID: 830380087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_9
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 598
+        width: 83
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6853b605d95e4bade127fc6c4fb3b
+      internalID: -1551994584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_10
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 598
+        width: 83
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc38856f985bba48b7a14b2fa92a1df
+      internalID: 196756503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_11
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 598
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3f80afe341bf542a5892781372e031
+      internalID: 1423798691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_12
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 598
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573615192285ea44889cb2731c9134c1
+      internalID: -1709407374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_13
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 599
+        width: 82
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18181785a3c38044583d9956a997a086
+      internalID: 499228140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_14
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 599
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79da8d9cc467e9d41a924a8f6cd11ef7
+      internalID: -192184172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_15
+      rect:
+        serializedVersion: 2
+        x: 3922
+        y: 599
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0aeb1b5ad5e5f49b30ee404491f7ef
+      internalID: -1317123535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_16
+      rect:
+        serializedVersion: 2
+        x: 4178
+        y: 599
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6307450ba9fa74b86e9a2a6ffa16a4
+      internalID: 1824538500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_17
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 598
+        width: 78
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7add8e1bcd9d974dacf9be4337d07a9
+      internalID: -1860303354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_18
+      rect:
+        serializedVersion: 2
+        x: 4691
+        y: 598
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245751be53aede44dbb13863cd735a13
+      internalID: 1646169306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_19
+      rect:
+        serializedVersion: 2
+        x: 4948
+        y: 598
+        width: 76
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e3fa61872513b48bfba08dbda7403c
+      internalID: 169704712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_20
+      rect:
+        serializedVersion: 2
+        x: 5204
+        y: 598
+        width: 75
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df6fcab4fd92d24d8ba5d1454ab4585
+      internalID: -337607491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_21
+      rect:
+        serializedVersion: 2
+        x: 5461
+        y: 598
+        width: 73
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1d11867c9e8aa49a8be4849cd8b049
+      internalID: 1075481101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_22
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 598
+        width: 71
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32882e0307f3e9c4e8e70ec1e89a25a3
+      internalID: -1680124913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_23
+      rect:
+        serializedVersion: 2
+        x: 5972
+        y: 598
+        width: 74
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0783aae0cab31294e9e91dd1b5449fca
+      internalID: -91767279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_24
+      rect:
+        serializedVersion: 2
+        x: 6225
+        y: 598
+        width: 78
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d918964edd81cb4f98aaa386491604d
+      internalID: 1677730991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_25
+      rect:
+        serializedVersion: 2
+        x: 6479
+        y: 599
+        width: 81
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ab415bde0bb394f8012819d087d324
+      internalID: -1367320746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_26
+      rect:
+        serializedVersion: 2
+        x: 6735
+        y: 599
+        width: 81
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1ff70f015626a40a050fb6653a62ca
+      internalID: -676009106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_27
+      rect:
+        serializedVersion: 2
+        x: 6990
+        y: 599
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56835df61ba0b3b4bb922c2e1ffdd963
+      internalID: 469913374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_28
+      rect:
+        serializedVersion: 2
+        x: 7245
+        y: 599
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d5d25e9e56fd843995f200d94bcd61
+      internalID: 1353829544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_29
+      rect:
+        serializedVersion: 2
+        x: 7501
+        y: 599
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e1374385f31c04986ab04dd8db0722
+      internalID: -429306827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_30
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 337
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e713250b53ad54185666f8eab78b04
+      internalID: 1505610368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_31
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 343
+        width: 84
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a7852ff5371d04a92d645fc0eeff20
+      internalID: 869986524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_32
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 339
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b927292ff25c1e4e8851a41f91f059c
+      internalID: 1624068019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_33
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 339
+        width: 92
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bbd7d77f9c725429ba56478a45a0e5
+      internalID: -1428587611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_34
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 339
+        width: 92
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca0cac8cc42c2541b23989d75b99e23
+      internalID: 51636354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_35
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 339
+        width: 95
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6997852d7ad23fa4b8a8c46b77311a92
+      internalID: -18175903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_36
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 339
+        width: 93
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fac32ab80e67e6458b450ed05def9f3
+      internalID: -1715487639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_37
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 339
+        width: 90
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e95cc48249c6a4c9cde6e70f0c8597
+      internalID: 1550897683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_38
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 338
+        width: 88
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bd585f776ec5b48944411462ddca75
+      internalID: 2144544844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_39
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 338
+        width: 86
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e96ec1a93f42948b6c97fcd2dbb7b8
+      internalID: -1779164073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_40
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 338
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0818a5a07292040be703be9dee8063
+      internalID: 1724486275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_41
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 338
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc27c4eb3e7714e863b2748e59234e
+      internalID: 1646861564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_42
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 338
+        width: 86
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f2e67856c6f4a44a2b23e15b053366
+      internalID: 501099767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_43
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 338
+        width: 88
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd062369d83705f42a31bac7de8ff957
+      internalID: -1110170631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_44
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 338
+        width: 88
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1d8e3d3117f2942b2e7f00b23ad13b
+      internalID: -1099857379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_45
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 338
+        width: 89
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3114969f91443a94992db7db0d550859
+      internalID: 677254291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_46
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 338
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc82de46f9ec4d3469adc9d360ec71f6
+      internalID: 50063304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_47
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 339
+        width: 91
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f912127b7226db478be7010c699657d
+      internalID: 747139052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_48
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 339
+        width: 91
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179baed727549774c8acdc6ed16b392b
+      internalID: 1258219102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_49
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 339
+        width: 92
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b54dfb7e706af4fa676e935a2f3c13
+      internalID: -1185521504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_50
+      rect:
+        serializedVersion: 2
+        x: 5209
+        y: 339
+        width: 81
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1971a95b2204fc48849cd164e330133
+      internalID: -672246739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_51
+      rect:
+        serializedVersion: 2
+        x: 5468
+        y: 339
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187713bd1dd486044bdefa9f089deb1e
+      internalID: 1507356728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_52
+      rect:
+        serializedVersion: 2
+        x: 5729
+        y: 340
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab81877784c1b1842904161dabbd7a8c
+      internalID: 1773004378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_53
+      rect:
+        serializedVersion: 2
+        x: 5982
+        y: 341
+        width: 79
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a499bb10d9a7499de358cd574a036
+      internalID: 1318687396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_54
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 340
+        width: 78
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc9edecab8a5c9499457707c552485f
+      internalID: 1568762337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_55
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 340
+        width: 78
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8bc82117491244e9f5a232545656db
+      internalID: -1212871350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_56
+      rect:
+        serializedVersion: 2
+        x: 6751
+        y: 340
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56025f2b142378840b447ad6b5c2920f
+      internalID: -238534709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_57
+      rect:
+        serializedVersion: 2
+        x: 7005
+        y: 339
+        width: 75
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb57e9380b639d4d8696b2ec93bcb4a
+      internalID: -689526515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_58
+      rect:
+        serializedVersion: 2
+        x: 7257
+        y: 339
+        width: 73
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65a4a0ca031c224c8be876661d8b3ac
+      internalID: 1328812639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_59
+      rect:
+        serializedVersion: 2
+        x: 7501
+        y: 338
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8a9aa2a9a545d4daa2a4f8cd8423ac
+      internalID: 606167614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_60
+      rect:
+        serializedVersion: 2
+        x: 7758
+        y: 338
+        width: 84
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fdf7c3d2d2f2145830a16b3534583c
+      internalID: 525577415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_61
+      rect:
+        serializedVersion: 2
+        x: 8015
+        y: 338
+        width: 83
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485399c10e69cbb4888c4ffcabb454ee
+      internalID: -1702335770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfd37f22f83bc5438b061250ea2b6d4
+      internalID: -786388404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_63
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 81
+        width: 82
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08988f5996a5ef44bb126c9bca12673a
+      internalID: -1822532166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_64
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 81
+        width: 81
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb97134cbc5ae941815db4409569ee9
+      internalID: -961040642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_65
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 81
+        width: 81
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcc01bd12388cb4ca215c396e053c66
+      internalID: 1611421101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_66
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 81
+        width: 79
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671e1cf44ee421c489331f052a1e93ee
+      internalID: 733033184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_67
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 81
+        width: 79
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad1466a9d4c0fd4b8df6bfa892b4a52
+      internalID: -500014788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_68
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 81
+        width: 79
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b6496b782605a439ff738d94744269
+      internalID: -1308706729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_69
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 80
+        width: 77
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ccf43a7d236741a9c6c3919e69243
+      internalID: 1261938409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_70
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 82
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e175ec1e9112344bb4c4980737d514
+      internalID: -201487481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_71
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 82
+        width: 70
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eedaca4ab417194ba7d89c153c878a1
+      internalID: 546860752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_72
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 81
+        width: 67
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3593e4aaadc5c5e4ebb2ccdb805c2356
+      internalID: -1934411325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_73
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 81
+        width: 68
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f9a56d03dd44049af80dfc17c17ac6
+      internalID: -1504529853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_74
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 79
+        width: 90
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6621fb4db4154b542a058572ba68e8a5
+      internalID: -1738946804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_75
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 80
+        width: 86
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ee63bf5f158849b68e29d146e4b5d
+      internalID: 240121870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_76
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 81
+        width: 81
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f99fa500cc8044940b766ad79486a
+      internalID: 1445406268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_77
+      rect:
+        serializedVersion: 2
+        x: 3945
+        y: 79
+        width: 92
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd330234eace6e43aa46fbc0cc4398b
+      internalID: -254166457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_78
+      rect:
+        serializedVersion: 2
+        x: 4204
+        y: 81
+        width: 90
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b83446c9b0816c4baf3df6fd5747a72
+      internalID: 466544262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_79
+      rect:
+        serializedVersion: 2
+        x: 4457
+        y: 85
+        width: 92
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3791ef66ba1b16419d96586d5971b0d
+      internalID: -2082286468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_80
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 86
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9073d74617b2c984f8103e0f05dcad8d
+      internalID: -1423845329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_81
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 85
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588e1067f868ea146b4dcea9820704fc
+      internalID: -991577880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_82
+      rect:
+        serializedVersion: 2
+        x: 5216
+        y: 76
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6215074853bbeca4f8ffa8891eab272b
+      internalID: -606522831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_83
+      rect:
+        serializedVersion: 2
+        x: 5474
+        y: 73
+        width: 85
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a9011edf7336543b430cc56c6dfd93
+      internalID: -1899342446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_84
+      rect:
+        serializedVersion: 2
+        x: 5732
+        y: 80
+        width: 83
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2658e4949c31cba43972d65bab5a74a8
+      internalID: -1741122546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_85
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 84
+        width: 82
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e38e75abc8db4593ff7c9d4548a2e
+      internalID: 89285873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_86
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 85
+        width: 82
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be94fe2b60c875d46b13de9c1abdb596
+      internalID: -475074522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_87
+      rect:
+        serializedVersion: 2
+        x: 6489
+        y: 86
+        width: 86
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a75e9f3a7c3ad448783b1294e20379
+      internalID: -232143852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_88
+      rect:
+        serializedVersion: 2
+        x: 6745
+        y: 86
+        width: 84
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336f473ad0df3954d80c8071846cccef
+      internalID: 1069094811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_89
+      rect:
+        serializedVersion: 2
+        x: 6999
+        y: 85
+        width: 84
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509eb9ef8fc0e8642b1cb06b15b0a990
+      internalID: -955356870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_90
+      rect:
+        serializedVersion: 2
+        x: 7252
+        y: 84
+        width: 84
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0af6fbc5d3c2c4c95da39746cd6da8
+      internalID: -1177562960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_91
+      rect:
+        serializedVersion: 2
+        x: 7504
+        y: 83
+        width: 85
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3028d8c2a2416a64b8986e6c12f5fc90
+      internalID: 1763662491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy.Mass_92
+      rect:
+        serializedVersion: 2
+        x: 7757
+        y: 82
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccf57dcc294b854f9800f019858924e
+      internalID: -835923186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy.Mass_0: 409861154
+      Enemy.Mass_1: -2116383964
+      Enemy.Mass_10: 196756503
+      Enemy.Mass_11: 1423798691
+      Enemy.Mass_12: -1709407374
+      Enemy.Mass_13: 499228140
+      Enemy.Mass_14: -192184172
+      Enemy.Mass_15: -1317123535
+      Enemy.Mass_16: 1824538500
+      Enemy.Mass_17: -1860303354
+      Enemy.Mass_18: 1646169306
+      Enemy.Mass_19: 169704712
+      Enemy.Mass_2: -1148446986
+      Enemy.Mass_20: -337607491
+      Enemy.Mass_21: 1075481101
+      Enemy.Mass_22: -1680124913
+      Enemy.Mass_23: -91767279
+      Enemy.Mass_24: 1677730991
+      Enemy.Mass_25: -1367320746
+      Enemy.Mass_26: -676009106
+      Enemy.Mass_27: 469913374
+      Enemy.Mass_28: 1353829544
+      Enemy.Mass_29: -429306827
+      Enemy.Mass_3: 1974973616
+      Enemy.Mass_30: 1505610368
+      Enemy.Mass_31: 869986524
+      Enemy.Mass_32: 1624068019
+      Enemy.Mass_33: -1428587611
+      Enemy.Mass_34: 51636354
+      Enemy.Mass_35: -18175903
+      Enemy.Mass_36: -1715487639
+      Enemy.Mass_37: 1550897683
+      Enemy.Mass_38: 2144544844
+      Enemy.Mass_39: -1779164073
+      Enemy.Mass_4: -1483578383
+      Enemy.Mass_40: 1724486275
+      Enemy.Mass_41: 1646861564
+      Enemy.Mass_42: 501099767
+      Enemy.Mass_43: -1110170631
+      Enemy.Mass_44: -1099857379
+      Enemy.Mass_45: 677254291
+      Enemy.Mass_46: 50063304
+      Enemy.Mass_47: 747139052
+      Enemy.Mass_48: 1258219102
+      Enemy.Mass_49: -1185521504
+      Enemy.Mass_5: -902847342
+      Enemy.Mass_50: -672246739
+      Enemy.Mass_51: 1507356728
+      Enemy.Mass_52: 1773004378
+      Enemy.Mass_53: 1318687396
+      Enemy.Mass_54: 1568762337
+      Enemy.Mass_55: -1212871350
+      Enemy.Mass_56: -238534709
+      Enemy.Mass_57: -689526515
+      Enemy.Mass_58: 1328812639
+      Enemy.Mass_59: 606167614
+      Enemy.Mass_6: 758417119
+      Enemy.Mass_60: 525577415
+      Enemy.Mass_61: -1702335770
+      Enemy.Mass_62: -786388404
+      Enemy.Mass_63: -1822532166
+      Enemy.Mass_64: -961040642
+      Enemy.Mass_65: 1611421101
+      Enemy.Mass_66: 733033184
+      Enemy.Mass_67: -500014788
+      Enemy.Mass_68: -1308706729
+      Enemy.Mass_69: 1261938409
+      Enemy.Mass_7: -565830617
+      Enemy.Mass_70: -201487481
+      Enemy.Mass_71: 546860752
+      Enemy.Mass_72: -1934411325
+      Enemy.Mass_73: -1504529853
+      Enemy.Mass_74: -1738946804
+      Enemy.Mass_75: 240121870
+      Enemy.Mass_76: 1445406268
+      Enemy.Mass_77: -254166457
+      Enemy.Mass_78: 466544262
+      Enemy.Mass_79: -2082286468
+      Enemy.Mass_8: 830380087
+      Enemy.Mass_80: -1423845329
+      Enemy.Mass_81: -991577880
+      Enemy.Mass_82: -606522831
+      Enemy.Mass_83: -1899342446
+      Enemy.Mass_84: -1741122546
+      Enemy.Mass_85: 89285873
+      Enemy.Mass_86: -475074522
+      Enemy.Mass_87: -232143852
+      Enemy.Mass_88: 1069094811
+      Enemy.Mass_89: -955356870
+      Enemy.Mass_9: -1551994584
+      Enemy.Mass_90: -1177562960
+      Enemy.Mass_91: 1763662491
+      Enemy.Mass_92: -835923186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

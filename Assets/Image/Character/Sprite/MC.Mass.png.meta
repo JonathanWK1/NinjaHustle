@@ -1,0 +1,2186 @@
+fileFormatVersion: 2
+guid: b48d2fc3c2dd38d44b3d7013731a99a1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MC.Mass_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 598
+        width: 81
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f101959364ddde84abb0074de73f868b
+      internalID: -2022505583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 598
+        width: 81
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3c2cc38b6650b448f6a2848040fcee
+      internalID: -1390228427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 598
+        width: 81
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6114e272220fda49bc5bb02e062d92e
+      internalID: 393793021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 598
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f4709c3efdffc42bf9696d20550500
+      internalID: 444243828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_4
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 598
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccc99fb2e86a0949bba6883b289305f
+      internalID: -1066424209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_5
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 598
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808bab11c73dba44db751c8f566b1d56
+      internalID: -1750236800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_6
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 597
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cedb9c585977e44e8bffc2bfaae5c64
+      internalID: -764067265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_7
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 597
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddba24cb3fb6464f9caf376bd5f9a42
+      internalID: -1017075920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_8
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 597
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41d8113e41fc1f499ca6abf21c40558
+      internalID: -1336481697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_9
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 597
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f328a48585ae774a89811246b500ff7
+      internalID: -683617785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_10
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 597
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fea4a775c2f894cb5947fe35b8ca72
+      internalID: 1885935098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_11
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 598
+        width: 86
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2126acfeb2c91d849bc8943ca04ea432
+      internalID: 1237602926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_12
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 598
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b388d61200ee5c4184c8158f7816dca
+      internalID: -678960120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_13
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 599
+        width: 87
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac6cd3d8e4969847bc387e8195facbe
+      internalID: 1809721704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_14
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 599
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3dd7d04df89ce408cbd3faec8ec38f
+      internalID: -864079941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_15
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 598
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073ae3755cad6524eaf9dafda8e4582f
+      internalID: 776934233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_16
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 598
+        width: 89
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988f596b747d5a04e9d776dd3dabeb13
+      internalID: 628139735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_17
+      rect:
+        serializedVersion: 2
+        x: 4442
+        y: 599
+        width: 89
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f502bafca4a0d854d82c65ff80bef792
+      internalID: -2030809184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_18
+      rect:
+        serializedVersion: 2
+        x: 4699
+        y: 599
+        width: 88
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af285d9a069c644e9e24096c6a847ef
+      internalID: -1162519072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_19
+      rect:
+        serializedVersion: 2
+        x: 4955
+        y: 599
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8f88310a8d610488440355c135bb58
+      internalID: 1739079871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_20
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 599
+        width: 86
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525f794e1d8ae6a49af34d885de39c2d
+      internalID: 635413968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_21
+      rect:
+        serializedVersion: 2
+        x: 5466
+        y: 599
+        width: 88
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb008ec13f8abc42ae4e1b45c2979db
+      internalID: -2011040456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_22
+      rect:
+        serializedVersion: 2
+        x: 5721
+        y: 599
+        width: 88
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3952585f07555d40a3c1d0b5c26306a
+      internalID: 183651040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_23
+      rect:
+        serializedVersion: 2
+        x: 5976
+        y: 599
+        width: 87
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cd93e8bb26ab7408a7e5184a2b2d19
+      internalID: -613015485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_24
+      rect:
+        serializedVersion: 2
+        x: 6231
+        y: 600
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643103550467a544dbf2ab8e6f762994
+      internalID: -695645639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_25
+      rect:
+        serializedVersion: 2
+        x: 6486
+        y: 600
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c380c90c814ab844399a5d9a71dcddc4
+      internalID: -1781561796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_26
+      rect:
+        serializedVersion: 2
+        x: 6743
+        y: 600
+        width: 85
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d845b8957bfbb76498db8aef8eb60e5d
+      internalID: -1087623509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_27
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 599
+        width: 84
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c488b7d79a50354196645b2a1b37e2c
+      internalID: 648061111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_28
+      rect:
+        serializedVersion: 2
+        x: 7257
+        y: 599
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf1d90cfd2252446a7106bdb5a48e99
+      internalID: 2026009774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_29
+      rect:
+        serializedVersion: 2
+        x: 7514
+        y: 598
+        width: 81
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8ae299b871f7b42811c3709502668b
+      internalID: -1844118157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 343
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f802c6eced8604295a59c1c2199906
+      internalID: -439703756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_31
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 346
+        width: 92
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecda21e2bde92274bbbe5fad9e93943c
+      internalID: -1250886237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_32
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 346
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed30fb105dd1ab4db3a5f0612cb0f98
+      internalID: -1017173693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_33
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 345
+        width: 105
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fd579ee25d4d445bbf9fcaf377cc0a
+      internalID: 1865529276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_34
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 345
+        width: 104
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f205edfdb827b4391ee07ed0d9ed48
+      internalID: -701440092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_35
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 345
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb9f25b071f6e14fbe1448bddfa8e59
+      internalID: -1616207756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_36
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 344
+        width: 101
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397353beac57ad488d27cb9c6a10494
+      internalID: 487457562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_37
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 344
+        width: 100
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0689fddbf886b94abbb6d3aec9053bc
+      internalID: -161307581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_38
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 343
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a9310a7acbd994bbfd314795e7819e
+      internalID: -2025444880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_39
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 343
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d018e23ee8c9af84bae784e67f7800be
+      internalID: -974677273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_40
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 342
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05444e1dc4164cd4ba1a0fe1e0ccab0e
+      internalID: 1372422357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_41
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 342
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e9a1b50d4bd624a9c3de9f46b124fe
+      internalID: -802599377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_42
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 343
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00df05b5f6b83f249807e6793db182f8
+      internalID: 812838513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_43
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 343
+        width: 95
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26bf4affe606c74c91f5c1e726e615e
+      internalID: 492565259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_44
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 344
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f780f641f9fceaa4299250ba77ab84e1
+      internalID: 1594979937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_45
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 344
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf8c51ed37c9834aa2fa9b0311b0b4d
+      internalID: -89856025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_46
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 344
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a239b1aff300a44382369ae9975ad4b
+      internalID: -483486479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_47
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 344
+        width: 98
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3ab161c99d1f648b69d8610a1f93d6
+      internalID: -1777376834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_48
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 344
+        width: 99
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da83f4421b230b42bb08ecf6569b35b
+      internalID: 1769376097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_49
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 344
+        width: 99
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94fefdfa77797d40b21546b5ecbab7b
+      internalID: -97384919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_50
+      rect:
+        serializedVersion: 2
+        x: 5210
+        y: 344
+        width: 84
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9d9206e0cdf2b42aeae3f35ba53e1d
+      internalID: 317331825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_51
+      rect:
+        serializedVersion: 2
+        x: 5466
+        y: 344
+        width: 85
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a15eda71044764479e0a13c157c755d
+      internalID: -174464858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_52
+      rect:
+        serializedVersion: 2
+        x: 5725
+        y: 344
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566be949cd8c9c14589465a664932fca
+      internalID: 2066231786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_53
+      rect:
+        serializedVersion: 2
+        x: 5977
+        y: 345
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e749d21c9c1634f9cfb566befa0bfa
+      internalID: 1336901294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_54
+      rect:
+        serializedVersion: 2
+        x: 6235
+        y: 345
+        width: 86
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d073ca63422f241bce2b58081e784b
+      internalID: 870565727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_55
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 345
+        width: 86
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6246cce44a5644caa94f54684c16fb
+      internalID: -1880276715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_56
+      rect:
+        serializedVersion: 2
+        x: 6748
+        y: 345
+        width: 83
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3566e8bdbe5d9ad4fb0ec0a95c474c1c
+      internalID: -111930702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_57
+      rect:
+        serializedVersion: 2
+        x: 7004
+        y: 344
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ebf9298c5e34d4a931cbe7309cf69d
+      internalID: -2080042463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_58
+      rect:
+        serializedVersion: 2
+        x: 7258
+        y: 342
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585fe42abc2288b48902c82382c58270
+      internalID: -974696966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_59
+      rect:
+        serializedVersion: 2
+        x: 7514
+        y: 341
+        width: 93
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d19c632ac1aa2946a4e5cb8ff054e10
+      internalID: -986823462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_60
+      rect:
+        serializedVersion: 2
+        x: 7770
+        y: 341
+        width: 93
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed42e1b780eb4ba489e1615811230060
+      internalID: -624802681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_61
+      rect:
+        serializedVersion: 2
+        x: 8025
+        y: 341
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2f278eeff675f44b48ce797f403616
+      internalID: -2084567916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_62
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 85
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b1e8d9e0d7214997346439f5d7db0
+      internalID: 2142493091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_63
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 85
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eb453dbc29d454cb9c0aa6f90f2e24
+      internalID: -62926617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_64
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 85
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b7c1aa933587b48b06494d0f2fb010
+      internalID: -1713750541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_65
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 85
+        width: 96
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5d8677e3a48d04fb6a0ff4a8f746df
+      internalID: 1775325784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_66
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 85
+        width: 97
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c5cf8b3c976394a91bcb8dd731cb01
+      internalID: -2052690301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_67
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 85
+        width: 98
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a6133ba39450c448979a3f6222fc83
+      internalID: 643263314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_68
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 85
+        width: 99
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226a0b4bc5f7308479981b60895ab962
+      internalID: 801602045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_69
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 86
+        width: 99
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cc6b66ba6721c4aa2cd4368dcf80f5
+      internalID: -1779880865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_70
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 88
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b783d37c6a3bdd243ab26665c7b5876a
+      internalID: -1251540654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_71
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 83
+        width: 92
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b091a2a6cbe84ba7f6ba7872b1ed7
+      internalID: 479162563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_72
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 79
+        width: 69
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d4ba456b0db3942a7930d352d3692f
+      internalID: 1214292292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_73
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 84
+        width: 76
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b6ef28a00534248992ac9af5d6e010
+      internalID: -792842664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_74
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 85
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af02c025880fa49ac7f5b8e22f85c9
+      internalID: -1349399623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_75
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 85
+        width: 71
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff9d5b26ebad24ab55fd57bb903992
+      internalID: -2093563957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_76
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 85
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d4cd3f6c9dcbf4cb18a4e6114e180a
+      internalID: -1583759887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_77
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 82
+        width: 73
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18569a6f3a36adc418f5212f3b4f5e21
+      internalID: -505355688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_78
+      rect:
+        serializedVersion: 2
+        x: 4205
+        y: 81
+        width: 77
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe33110b5666724fa040efa6c9041e1
+      internalID: 1638660272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_79
+      rect:
+        serializedVersion: 2
+        x: 4460
+        y: 81
+        width: 81
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ca0ed971ad4564a9b044669b473b5e
+      internalID: -1427972543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_80
+      rect:
+        serializedVersion: 2
+        x: 4708
+        y: 82
+        width: 105
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc8206df5e10648b406e65d7875a5b
+      internalID: -1268738309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_81
+      rect:
+        serializedVersion: 2
+        x: 4962
+        y: 81
+        width: 95
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ca599f7c863b14b914aafc6f23805c
+      internalID: -1174860000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_82
+      rect:
+        serializedVersion: 2
+        x: 5218
+        y: 78
+        width: 80
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93a07fabcff0374e8e810c471508d21
+      internalID: 1222067372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_83
+      rect:
+        serializedVersion: 2
+        x: 5475
+        y: 80
+        width: 76
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804d13f59502a7c4283d1d278a9332e7
+      internalID: 966817115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_84
+      rect:
+        serializedVersion: 2
+        x: 5732
+        y: 80
+        width: 79
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c26061abbf2b00429b60b666ef70ef0
+      internalID: 1499700923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_85
+      rect:
+        serializedVersion: 2
+        x: 5990
+        y: 84
+        width: 77
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63624676223d9941be619d21e963e26
+      internalID: 1635549228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_86
+      rect:
+        serializedVersion: 2
+        x: 6245
+        y: 87
+        width: 77
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f371bc81238a4748914bf26a3f2d225
+      internalID: 2062721158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_87
+      rect:
+        serializedVersion: 2
+        x: 6497
+        y: 90
+        width: 84
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffcd93efe1c06e4c9947cba5e5ed9e1
+      internalID: 161053837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_88
+      rect:
+        serializedVersion: 2
+        x: 6751
+        y: 89
+        width: 80
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68292c97f7b8844f807885010006b00
+      internalID: -1140521138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_89
+      rect:
+        serializedVersion: 2
+        x: 7005
+        y: 88
+        width: 75
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952e08c7e9ef48846ab0412ef66f4ec7
+      internalID: -482975414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_90
+      rect:
+        serializedVersion: 2
+        x: 7260
+        y: 88
+        width: 70
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88692486abb7fb48b8bd168cd07a762
+      internalID: -2119771884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_91
+      rect:
+        serializedVersion: 2
+        x: 7513
+        y: 87
+        width: 68
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c894cdb440085a84d9ee859c387b2f06
+      internalID: -2110650526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MC.Mass_92
+      rect:
+        serializedVersion: 2
+        x: 7766
+        y: 87
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb2c9842b4aafa48b6da10bb354e023
+      internalID: -1286346292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MC.Mass_0: -2022505583
+      MC.Mass_1: -1390228427
+      MC.Mass_10: 1885935098
+      MC.Mass_11: 1237602926
+      MC.Mass_12: -678960120
+      MC.Mass_13: 1809721704
+      MC.Mass_14: -864079941
+      MC.Mass_15: 776934233
+      MC.Mass_16: 628139735
+      MC.Mass_17: -2030809184
+      MC.Mass_18: -1162519072
+      MC.Mass_19: 1739079871
+      MC.Mass_2: 393793021
+      MC.Mass_20: 635413968
+      MC.Mass_21: -2011040456
+      MC.Mass_22: 183651040
+      MC.Mass_23: -613015485
+      MC.Mass_24: -695645639
+      MC.Mass_25: -1781561796
+      MC.Mass_26: -1087623509
+      MC.Mass_27: 648061111
+      MC.Mass_28: 2026009774
+      MC.Mass_29: -1844118157
+      MC.Mass_3: 444243828
+      MC.Mass_30: -439703756
+      MC.Mass_31: -1250886237
+      MC.Mass_32: -1017173693
+      MC.Mass_33: 1865529276
+      MC.Mass_34: -701440092
+      MC.Mass_35: -1616207756
+      MC.Mass_36: 487457562
+      MC.Mass_37: -161307581
+      MC.Mass_38: -2025444880
+      MC.Mass_39: -974677273
+      MC.Mass_4: -1066424209
+      MC.Mass_40: 1372422357
+      MC.Mass_41: -802599377
+      MC.Mass_42: 812838513
+      MC.Mass_43: 492565259
+      MC.Mass_44: 1594979937
+      MC.Mass_45: -89856025
+      MC.Mass_46: -483486479
+      MC.Mass_47: -1777376834
+      MC.Mass_48: 1769376097
+      MC.Mass_49: -97384919
+      MC.Mass_5: -1750236800
+      MC.Mass_50: 317331825
+      MC.Mass_51: -174464858
+      MC.Mass_52: 2066231786
+      MC.Mass_53: 1336901294
+      MC.Mass_54: 870565727
+      MC.Mass_55: -1880276715
+      MC.Mass_56: -111930702
+      MC.Mass_57: -2080042463
+      MC.Mass_58: -974696966
+      MC.Mass_59: -986823462
+      MC.Mass_6: -764067265
+      MC.Mass_60: -624802681
+      MC.Mass_61: -2084567916
+      MC.Mass_62: 2142493091
+      MC.Mass_63: -62926617
+      MC.Mass_64: -1713750541
+      MC.Mass_65: 1775325784
+      MC.Mass_66: -2052690301
+      MC.Mass_67: 643263314
+      MC.Mass_68: 801602045
+      MC.Mass_69: -1779880865
+      MC.Mass_7: -1017075920
+      MC.Mass_70: -1251540654
+      MC.Mass_71: 479162563
+      MC.Mass_72: 1214292292
+      MC.Mass_73: -792842664
+      MC.Mass_74: -1349399623
+      MC.Mass_75: -2093563957
+      MC.Mass_76: -1583759887
+      MC.Mass_77: -505355688
+      MC.Mass_78: 1638660272
+      MC.Mass_79: -1427972543
+      MC.Mass_8: -1336481697
+      MC.Mass_80: -1268738309
+      MC.Mass_81: -1174860000
+      MC.Mass_82: 1222067372
+      MC.Mass_83: 966817115
+      MC.Mass_84: 1499700923
+      MC.Mass_85: 1635549228
+      MC.Mass_86: 2062721158
+      MC.Mass_87: 161053837
+      MC.Mass_88: -1140521138
+      MC.Mass_89: -482975414
+      MC.Mass_9: -683617785
+      MC.Mass_90: -2119771884
+      MC.Mass_91: -2110650526
+      MC.Mass_92: -1286346292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

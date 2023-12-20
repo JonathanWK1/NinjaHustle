@@ -1,0 +1,1548 @@
+fileFormatVersion: 2
+guid: 789597ea23e4cc6418bfba8bfb7b77dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss.Atk2_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1876
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daff932ec41a0f46af87aa828c656ce
+      internalID: -1702536068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1876
+        width: 94
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08317e049fbb8124fad012da9cd9a9b8
+      internalID: -473801141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1878
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce76fd1924f2cf4eaaff3449d980a84
+      internalID: -1718620548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_3
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1880
+        width: 105
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ccefeb6b1a438418f2cc4c95e18483
+      internalID: -412670602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_4
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1877
+        width: 101
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1893f1470b560d2428296255cb93ae0f
+      internalID: -431195421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_5
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1874
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db48febcca98e6445b333e311e9f2295
+      internalID: -1465180971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_6
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1873
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275ed8d4c950606448b232854c55f0b8
+      internalID: -2140268074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_7
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1873
+        width: 68
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea74fb9fabb765409660ff1a4d7e597
+      internalID: 1642759382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_8
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1619
+        width: 62
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ad8848dd712be4abf040b138d87c05
+      internalID: 1844017092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_9
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1620
+        width: 66
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846eba1ae3ffdf74fab443ece8f9d834
+      internalID: 296910707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1620
+        width: 82
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce8f78d52c78e1468296d7032648536
+      internalID: -131569667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1622
+        width: 84
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e8e8179900a38478df588d1eac978b
+      internalID: -109952965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1624
+        width: 89
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c84656d02fe66047ae384210dd26e6e
+      internalID: 283427566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_13
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1626
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c446336e4f2ef547b0245d675e260cf
+      internalID: 1235744858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_14
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1626
+        width: 102
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804989da58797cd49ae03fe112476e22
+      internalID: -527117951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_15
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1626
+        width: 106
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf783195c14c044ca343002b45a017b
+      internalID: -1137009219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1368
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081e5f477fa79dd46b53bda6a516f3a8
+      internalID: 215988163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1366
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451393b155b94b6449b69e564d8853a9
+      internalID: 422850657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_18
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1364
+        width: 87
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f945df2f820a76c4ea104e8bf0743db8
+      internalID: -349536110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_19
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1363
+        width: 89
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61a7ba143a03824996a9d1482426d0a
+      internalID: 1409837747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_20
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1364
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9ede8ff72bb344fb22e2de96b4c25e
+      internalID: -1995646238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_21
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1365
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4aaa79540df10499094c0d311e028a
+      internalID: -1490246699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_22
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1364
+        width: 93
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c9a496ab3c4bf4289b06b9bba4b578
+      internalID: 1197784603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_23
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1364
+        width: 89
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5c359fc925781448061e56e72ee228
+      internalID: 1334649134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1107
+        width: 88
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a1240644272d14a85c05f655fcaf63
+      internalID: -1300592291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_25
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1102
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e6d47b25f768a4ba23bcdced4d7c14
+      internalID: -2091479844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1099
+        width: 87
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea5e42c8f51e7341be34100f65e029f
+      internalID: 1080953335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_27
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1101
+        width: 86
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04919e000e24f9499d24406339c2984
+      internalID: -691994558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_28
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1103
+        width: 90
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0147b00832bb82648a3756ce826c8e68
+      internalID: -1024924965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_29
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1106
+        width: 92
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966d0e071e35a144bb012774d11e659d
+      internalID: -358368754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_30
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1111
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd43007a03067484b857c868656754a8
+      internalID: -2007702710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_31
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1112
+        width: 103
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbd3fab667356e40a28ae1c5f972c34
+      internalID: 2028032529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_32
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 860
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23213915b59c504c971173aaa3c03e2
+      internalID: 321662832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 857
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851698e4f619a0d48b75f25e53089076
+      internalID: 1533443394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_34
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 856
+        width: 105
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8972e0dfbd7a9254389fd39c30fa1b3d
+      internalID: 478262839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_35
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 855
+        width: 103
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af423f83285ac743a1d8b85ce5d8f6a
+      internalID: 1573836784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_36
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 853
+        width: 101
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87433e85b06b1084d914424ce812adb1
+      internalID: -1736597652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_37
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 852
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325be700ff788d0429ad33b8aa2c6be3
+      internalID: -585402648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_38
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 852
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39441539693dbf84dabec80b361803ae
+      internalID: -1682221149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_39
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 852
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0dea1549466284da8bfc2b438f4b58
+      internalID: 536800557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 596
+        width: 89
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9b1668da6691547bb9318658dce2dc
+      internalID: -549505083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_41
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 596
+        width: 87
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4256962a43813c74c8f42dafa4f83d43
+      internalID: 1802321590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_42
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 596
+        width: 84
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5413d8c4fdb1d70409af4d2d8afc4269
+      internalID: 875352950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_43
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 596
+        width: 82
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dd619799f07eb41b57724b4bcb7c4e
+      internalID: -912633177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_44
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 596
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0ed344ae6878642bd2e24396fd6c8f
+      internalID: 177009518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_45
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 596
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05585ddbaba9b14db24b68b6d1eace0
+      internalID: 1146204327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_46
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 596
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6b6a7faf86ccd46bd8a0db9ec938d5
+      internalID: -885196897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_47
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 596
+        width: 79
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902fb3708e63c7b418a3196851a7a97e
+      internalID: -2056717555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_48
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 341
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5250c7e082eeab45850e24738be6a93
+      internalID: 1527322525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_49
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 341
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3fa08e866ba974ba9da630878a4ad8
+      internalID: 724078974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_50
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 341
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adb40c4fa5d28346bedcc5c435ed1f8
+      internalID: -1649009339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_51
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 341
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d05c78543f94b34d84376d2ab29fd29
+      internalID: -1738257530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_52
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 341
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abceaa301a01a94db308c560801bdc4
+      internalID: -453226943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_53
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 340
+        width: 81
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917c3fb1a3b38524d9cbfdaeebcc1dd2
+      internalID: -1040076120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_54
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 340
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fa947bd32e30941ae753e2934f386b
+      internalID: -771354254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_55
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 340
+        width: 84
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b4aca7bbd224a4cb02cef43267c2f9
+      internalID: -262555400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_56
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 84
+        width: 86
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eae7e6169fd5f646a225dd8bcd100b5
+      internalID: -1157724658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 84
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be065910564eee48b9dc9c54a6399db
+      internalID: -260257163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_58
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 84
+        width: 89
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94aa0d6d3b862264485995ba466af49b
+      internalID: -1791101018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_59
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 84
+        width: 90
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cdfeb7194559c4aa1c15273d83c826
+      internalID: 664305199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_60
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 84
+        width: 88
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1f8a4d5f33de946bd605bf24e8dbef
+      internalID: 10146693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_61
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 84
+        width: 87
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a32d2f3b892f784ebe19b8353dc83bc
+      internalID: -1556050862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_62
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 84
+        width: 85
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618c5c122c2203140816c9b3d8c057eb
+      internalID: -1383998927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss.Atk2_63
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 84
+        width: 83
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff100ef4045f8b44dbdc6f9b047e5d92
+      internalID: -1351843870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boss.Atk2_0: -1702536068
+      Boss.Atk2_1: -473801141
+      Boss.Atk2_10: -131569667
+      Boss.Atk2_11: -109952965
+      Boss.Atk2_12: 283427566
+      Boss.Atk2_13: 1235744858
+      Boss.Atk2_14: -527117951
+      Boss.Atk2_15: -1137009219
+      Boss.Atk2_16: 215988163
+      Boss.Atk2_17: 422850657
+      Boss.Atk2_18: -349536110
+      Boss.Atk2_19: 1409837747
+      Boss.Atk2_2: -1718620548
+      Boss.Atk2_20: -1995646238
+      Boss.Atk2_21: -1490246699
+      Boss.Atk2_22: 1197784603
+      Boss.Atk2_23: 1334649134
+      Boss.Atk2_24: -1300592291
+      Boss.Atk2_25: -2091479844
+      Boss.Atk2_26: 1080953335
+      Boss.Atk2_27: -691994558
+      Boss.Atk2_28: -1024924965
+      Boss.Atk2_29: -358368754
+      Boss.Atk2_3: -412670602
+      Boss.Atk2_30: -2007702710
+      Boss.Atk2_31: 2028032529
+      Boss.Atk2_32: 321662832
+      Boss.Atk2_33: 1533443394
+      Boss.Atk2_34: 478262839
+      Boss.Atk2_35: 1573836784
+      Boss.Atk2_36: -1736597652
+      Boss.Atk2_37: -585402648
+      Boss.Atk2_38: -1682221149
+      Boss.Atk2_39: 536800557
+      Boss.Atk2_4: -431195421
+      Boss.Atk2_40: -549505083
+      Boss.Atk2_41: 1802321590
+      Boss.Atk2_42: 875352950
+      Boss.Atk2_43: -912633177
+      Boss.Atk2_44: 177009518
+      Boss.Atk2_45: 1146204327
+      Boss.Atk2_46: -885196897
+      Boss.Atk2_47: -2056717555
+      Boss.Atk2_48: 1527322525
+      Boss.Atk2_49: 724078974
+      Boss.Atk2_5: -1465180971
+      Boss.Atk2_50: -1649009339
+      Boss.Atk2_51: -1738257530
+      Boss.Atk2_52: -453226943
+      Boss.Atk2_53: -1040076120
+      Boss.Atk2_54: -771354254
+      Boss.Atk2_55: -262555400
+      Boss.Atk2_56: -1157724658
+      Boss.Atk2_57: -260257163
+      Boss.Atk2_58: -1791101018
+      Boss.Atk2_59: 664305199
+      Boss.Atk2_6: -2140268074
+      Boss.Atk2_60: 10146693
+      Boss.Atk2_61: -1556050862
+      Boss.Atk2_62: -1383998927
+      Boss.Atk2_63: -1351843870
+      Boss.Atk2_7: 1642759382
+      Boss.Atk2_8: 1844017092
+      Boss.Atk2_9: 296910707
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

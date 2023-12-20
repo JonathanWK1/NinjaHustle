@@ -9,43 +9,71 @@ using UnityEngine.UI;
 using DG.Tweening;
 using static UnityEditor.Progress;
 using UnityEditor;
+using UnityEngine.Events;
+using Unity.Mathematics;
 
 public class GameManager : MonoBehaviour
 {
     public float MaxTimeOut;
-    public int PlayerDamage;
-    public int EnemyDamage;
     public int SpaceBetweenCards;
+    public UnityEvent playerAttack;
+    public UnityEvent enemyAttack;
 
     [SerializeField] TMP_InputField TextInput;
     [SerializeField] TextMeshProUGUI TimerText;
     [SerializeField] Slider PlayerHPBar;
     [SerializeField] Slider EnemyHPBar;
     [SerializeField] RectTransform SignLanguageContainer;
+    [SerializeField] Transform EnemyPrefabContainer;
     [SerializeField] GameObject SignLanguageCardPrefab;
     [SerializeField] Canvas GameOverCanvas;
 
     [SerializeField] List<Sprite> cardImage;
+
+    [SerializeField] SoundManager soundManager;
+
+    [SerializeField] Character player;
 
     List<SignLanguageCardData> currCards = new List<SignLanguageCardData>();
     List<GameObject> currCardObjects = new List<GameObject>();
 
     List<SignLanguageCardData> allCards;
 
+    public UnityEvent<bool> GameEnds;
 
+    [SerializeField]
+    GameObject EnemyPrefab;
 
-    const int maxCurrCard = 5;
+    [SerializeField]
+    GameObject BossPrefab;
+
+    Character enemy;
+
+    public int Score;
+    int enemyCount = 0;
+    const int maxCurrCard = 3;
     float timeOut;
     void Start()
     {
         //MakeScriptable();
+        enemyCount = 0;
+        Score = 0;
         TextInput.ActivateInputField();
         Time.timeScale = 1;
         timeOut = MaxTimeOut;
         TimerText.text = Convert.ToInt32(timeOut).ToString();
         allCards = Resources.LoadAll<SignLanguageCardData>("Sign Language Card/").ToList();
+        player.CharacterDead.AddListener(OnCharacterDead);
+        player.HPChanged.AddListener(SetHpUI);
         SpawnCards();
         DrawCards();
+        SpawnEnemy();
+
+    }
+
+    public void FocusTextInput()
+    {
+        TextInput.ActivateInputField();
     }
 
     //void MakeScriptable()
@@ -84,17 +112,16 @@ public class GameManager : MonoBehaviour
     {
         if (IsSuccess)
         {
-            EnemyHPBar.value -= PlayerDamage;
+            Score += 1;
+            soundManager.PlaySFX("Attack");
+            playerAttack.Invoke();
+            enemy.TakeDamage(player.Damage);
         }
         else
         {
-            PlayerHPBar.value -= EnemyDamage;
-        }
-
-        if (EnemyHPBar.value <= 0 || PlayerHPBar.value <= 0)
-        {
-            Time.timeScale = 0f;
-            GameOverCanvas.enabled = true;
+            soundManager.PlaySFX("Hurt");
+            enemyAttack.Invoke();
+            player.TakeDamage(enemy.Damage);
         }
         TextInput.text = "";
 
@@ -103,6 +130,70 @@ public class GameManager : MonoBehaviour
         timeOut = MaxTimeOut;
         TextInput.ActivateInputField();
     }
+
+    public void SetHpUI(int hp, bool IsPlayer)
+    {
+        if (IsPlayer)
+        {
+            PlayerHPBar.value = hp;
+        }
+        else
+        {
+            EnemyHPBar.value = hp;
+        }
+    }
+
+    public void OnCharacterDead(bool IsPlayer)
+    {
+        if (IsPlayer)
+        {
+            soundManager.PlaySFX("Lose");
+            Time.timeScale = 0f;
+            GameEnds.Invoke(false);
+        }
+        else
+        {
+            Score += enemy.Score;
+            Destroy(enemy.gameObject);
+            soundManager.PlaySFX("Win");
+            enemyCount++;
+            SpawnEnemy();
+        }
+    }
+
+    public void SpawnEnemy()
+    {
+        if (enemyCount%3 == 2)
+        {
+            InstantiateEnemy(BossPrefab);
+        }
+        else
+        {
+            InstantiateEnemy(EnemyPrefab);
+        }
+    }
+
+    public void InstantiateEnemy(GameObject enemyPrefab)
+    {
+        GameObject enemyObject = Instantiate(enemyPrefab, EnemyPrefabContainer);
+
+        Character enemyCharacter = enemyObject.GetComponent<Character>();
+        enemyObject.transform.localPosition = Vector3.zero;
+
+        EnemyHPBar.maxValue = enemyCharacter.MaxHP;
+        EnemyHPBar.value = enemyCharacter.MaxHP;
+
+        enemyCharacter.Damage += enemyCount / 10;
+        enemyCharacter.Damage = math.clamp(enemyCharacter.Damage, 1, 5);
+
+        enemyCharacter.MaxHP *=  1 + (enemyCharacter.MaxHPMultiplier * enemyCount / 2);
+
+        enemyCharacter.CharacterDead.AddListener(OnCharacterDead);
+        enemyCharacter.HPChanged.AddListener(SetHpUI);
+
+        enemy = enemyCharacter;
+    }
+
     public void ResetGame()
     {
         Time.timeScale = 1f;
@@ -137,7 +228,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = currCardObjects.Count - 1; i > 0; i--)
         {
-            currCardObjects[i].transform.DOMoveX(currCardObjects[i-1].transform.position.x, 0.2f).SetEase(Ease.InBounce);
+            currCardObjects[i].transform.DOMoveY(currCardObjects[i-1].transform.position.y, 0.2f).SetEase(Ease.InBounce);
         }
 
         currCards.RemoveAt(0);
@@ -173,7 +264,8 @@ public class GameManager : MonoBehaviour
         signLanguageCard.InitializeCard(cardData);
 
         RectTransform cardTransform = cardObject.GetComponent<RectTransform>();
-        cardObject.transform.localPosition = new Vector3(spawnPosition.x + (currCardObjects.Count) * (cardTransform.rect.width + SpaceBetweenCards), spawnPosition.y, spawnPosition.z);
+        //cardObject.transform.localPosition = new Vector3((currCardObjects.Count) * (cardTransform.rect.width + SpaceBetweenCards), 0, 0);
+        cardObject.transform.localPosition = new Vector3(0, currCardObjects.Count * (cardTransform.rect.height + SpaceBetweenCards), 0);
         currCardObjects.Add(cardObject);
     }
 }
