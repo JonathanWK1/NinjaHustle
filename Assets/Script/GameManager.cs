@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
     public UnityEvent enemyAttack;
 
     [SerializeField] TMP_InputField TextInput;
-    [SerializeField] TextMeshProUGUI TimerText;
     [SerializeField] Slider PlayerHPBar;
     [SerializeField] Slider EnemyHPBar;
     [SerializeField] RectTransform SignLanguageContainer;
@@ -32,7 +31,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] SoundManager soundManager;
 
-    [SerializeField] Character player;
+    [SerializeField] Character Player;
+    [SerializeField] Slider TimerSlider;
 
     List<SignLanguageCardData> currCards = new List<SignLanguageCardData>();
     List<GameObject> currCardObjects = new List<GameObject>();
@@ -61,10 +61,11 @@ public class GameManager : MonoBehaviour
         TextInput.ActivateInputField();
         Time.timeScale = 1;
         timeOut = MaxTimeOut;
-        TimerText.text = Convert.ToInt32(timeOut).ToString();
+        TimerSlider.maxValue = MaxTimeOut;
+        TimerSlider.value = timeOut;
         allCards = Resources.LoadAll<SignLanguageCardData>("Sign Language Card/").ToList();
-        player.CharacterDead.AddListener(OnCharacterDead);
-        player.HPChanged.AddListener(SetHpUI);
+        Player.CharacterDead.AddListener(OnCharacterDead);
+        Player.HPChanged.AddListener(SetHpUI);
         SpawnCards();
         DrawCards();
         SpawnEnemy();
@@ -100,7 +101,7 @@ public class GameManager : MonoBehaviour
         if (timeOut >= 0)
         {
             timeOut -= Time.deltaTime;
-            TimerText.text = Convert.ToInt32(timeOut).ToString();
+            TimerSlider.value = timeOut;
         }
         else
         {
@@ -115,19 +116,18 @@ public class GameManager : MonoBehaviour
             Score += 1;
             soundManager.PlaySFX("Attack");
             playerAttack.Invoke();
-            enemy.TakeDamage(player.Damage);
+            enemy.TakeDamage(Player.Damage);
         }
         else
         {
             soundManager.PlaySFX("Hurt");
             enemyAttack.Invoke();
-            player.TakeDamage(enemy.Damage);
+            Player.TakeDamage(enemy.Damage);
         }
         TextInput.text = "";
 
-
-        TimerText.text = Convert.ToInt32(timeOut).ToString();
         timeOut = MaxTimeOut;
+        TimerSlider.value = MaxTimeOut;
         TextInput.ActivateInputField();
     }
 
@@ -191,6 +191,10 @@ public class GameManager : MonoBehaviour
         enemyCharacter.CharacterDead.AddListener(OnCharacterDead);
         enemyCharacter.HPChanged.AddListener(SetHpUI);
 
+        MaxTimeOut -= enemyCount / 10;
+        MaxTimeOut = math.clamp(MaxTimeOut,2,5);
+
+        TimerSlider.maxValue = MaxTimeOut;
         enemy = enemyCharacter;
     }
 
