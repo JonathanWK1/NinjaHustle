@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class PopUp : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class PopUp : MonoBehaviour
     Canvas canvas;
     public UnityEvent popUpShow;
     public UnityEvent popUpHide;
+    [SerializeField]
+    private Button button;
+    
     void Start()
     {
         canvas = GetComponent<Canvas>();
@@ -17,6 +21,7 @@ public class PopUp : MonoBehaviour
     public void Show()
     {
         canvas.enabled = true;
+        button?.Select();
         popUpShow.Invoke();
     }
 

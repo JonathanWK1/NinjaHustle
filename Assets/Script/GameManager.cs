@@ -74,6 +74,7 @@ public class GameManager : MonoBehaviour
 
     public void FocusTextInput()
     {
+        TextInput.Select();
         TextInput.ActivateInputField();
     }
 

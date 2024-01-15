@@ -76,7 +76,6 @@ public class Character : MonoBehaviour
 
     public void SetToHurtAnimation()
     {
-        print("start");
         animator.SetBool("IsHurt", true);
     }
 

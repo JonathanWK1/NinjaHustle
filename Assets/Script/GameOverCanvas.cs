@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOverCanvas : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
     TextMeshProUGUI scoreTextValue;
+
+    [SerializeField]
+    Button retryButton;
+
     GameManager gameManager;
     Canvas canvas;
     void Start()
@@ -21,5 +26,6 @@ public class GameOverCanvas : MonoBehaviour
     {
         scoreTextValue.text = gameManager.Score.ToString();
         canvas.enabled = true;
+        retryButton.Select();
     }
 }
