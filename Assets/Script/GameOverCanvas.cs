@@ -25,6 +25,8 @@ public class GameOverCanvas : MonoBehaviour
     void ShowCanvas(bool Win)
     {
         scoreTextValue.text = gameManager.Score.ToString();
+        GameObject myEventSystem = GameObject.Find("EventSystem");
+        myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(retryButton.gameObject);
         canvas.enabled = true;
         retryButton.Select();
     }

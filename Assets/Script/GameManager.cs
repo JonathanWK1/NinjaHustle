@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -7,8 +5,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using DG.Tweening;
-using static UnityEditor.Progress;
-using UnityEditor;
 using UnityEngine.Events;
 using Unity.Mathematics;
 
@@ -53,15 +49,19 @@ public class GameManager : MonoBehaviour
     int enemyCount = 0;
     const int maxCurrCard = 3;
     float timeOut;
+    float currMaxTimeOut;
+    bool gameOver;
     void Start()
     {
         //MakeScriptable();
         enemyCount = 0;
+        gameOver = false;
         Score = 0;
         TextInput.ActivateInputField();
         Time.timeScale = 1;
-        timeOut = MaxTimeOut;
-        TimerSlider.maxValue = MaxTimeOut;
+        currMaxTimeOut = MaxTimeOut;
+        timeOut = currMaxTimeOut;
+        TimerSlider.maxValue = currMaxTimeOut;
         TimerSlider.value = timeOut;
         allCards = Resources.LoadAll<SignLanguageCardData>("Sign Language Card/").ToList();
         Player.CharacterDead.AddListener(OnCharacterDead);
@@ -127,9 +127,8 @@ public class GameManager : MonoBehaviour
         }
         TextInput.text = "";
 
-        timeOut = MaxTimeOut;
-        TimerSlider.value = MaxTimeOut;
-        TextInput.ActivateInputField();
+        timeOut = currMaxTimeOut;
+        TimerSlider.value = currMaxTimeOut;
     }
 
     public void SetHpUI(int hp, bool IsPlayer)
@@ -148,7 +147,9 @@ public class GameManager : MonoBehaviour
     {
         if (IsPlayer)
         {
+            TextInput.DeactivateInputField();
             soundManager.PlaySFX("Lose");
+            gameOver = true;
             Time.timeScale = 0f;
             GameEnds.Invoke(false);
         }
@@ -164,7 +165,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        if (enemyCount%3 == 2)
+        if (enemyCount%3 == 1)
         {
             InstantiateEnemy(BossPrefab);
         }
@@ -181,21 +182,22 @@ public class GameManager : MonoBehaviour
         Character enemyCharacter = enemyObject.GetComponent<Character>();
         enemyObject.transform.localPosition = Vector3.zero;
 
-        EnemyHPBar.maxValue = enemyCharacter.MaxHP;
-        EnemyHPBar.value = enemyCharacter.MaxHP;
 
-        enemyCharacter.Damage += enemyCount / 10;
+        enemyCharacter.Damage += enemyCount / 4;
         enemyCharacter.Damage = math.clamp(enemyCharacter.Damage, 1, 5);
 
-        enemyCharacter.MaxHP *=  1 + (enemyCharacter.MaxHPMultiplier * enemyCount / 2);
+        enemyCharacter.MaxHP *=  1 + (enemyCharacter.MaxHPMultiplier * (enemyCount / 4));
+
+        EnemyHPBar.maxValue = enemyCharacter.MaxHP;
+        EnemyHPBar.value = enemyCharacter.MaxHP;
 
         enemyCharacter.CharacterDead.AddListener(OnCharacterDead);
         enemyCharacter.HPChanged.AddListener(SetHpUI);
 
-        MaxTimeOut -= enemyCount / 10;
-        MaxTimeOut = math.clamp(MaxTimeOut,2,5);
+        currMaxTimeOut = MaxTimeOut - enemyCount / 2;
+        currMaxTimeOut = math.clamp(currMaxTimeOut, 1,5);
 
-        TimerSlider.maxValue = MaxTimeOut;
+        TimerSlider.maxValue = currMaxTimeOut;
         enemy = enemyCharacter;
     }
 
@@ -207,6 +209,8 @@ public class GameManager : MonoBehaviour
 
     public void onInputTextChange(string name)
     {
+        print(name);
+        if (gameOver) return;
         TextInput.ActivateInputField();
         if (name.Trim().Length == 0) return;
         if (name[name.Length - 1] == ' ')
@@ -222,8 +226,9 @@ public class GameManager : MonoBehaviour
                 ResetTimer(false);
             }
         }
+        TextInput.ActivateInputField();
     }
-     void ShakeCard()
+    void ShakeCard()
     {
         currCardObjects[0].transform.DOShakeRotation(0.2f, 40,80);
     }

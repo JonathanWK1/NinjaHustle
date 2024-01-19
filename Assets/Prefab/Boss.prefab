@@ -100,10 +100,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2972218314793013861}
   IsPlayer: 0
-  MaxHP: 20
+  MaxHP: 10
   Damage: 2
   Score: 40
-  MaxHPMultiplier: 5
+  MaxHPMultiplier: 2
   CharacterDead:
     m_PersistentCalls:
       m_Calls: []
