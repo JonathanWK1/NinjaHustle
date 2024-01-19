@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Events;
 using Unity.Mathematics;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
@@ -21,8 +22,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] RectTransform SignLanguageContainer;
     [SerializeField] Transform EnemyPrefabContainer;
     [SerializeField] GameObject SignLanguageCardPrefab;
-    [SerializeField] Canvas GameOverCanvas;
-
+ 
     [SerializeField] List<Sprite> cardImage;
 
     [SerializeField] SoundManager soundManager;
@@ -35,7 +35,6 @@ public class GameManager : MonoBehaviour
 
     List<SignLanguageCardData> allCards;
 
-    public UnityEvent<bool> GameEnds;
 
     [SerializeField]
     GameObject EnemyPrefab;
@@ -44,6 +43,9 @@ public class GameManager : MonoBehaviour
     GameObject BossPrefab;
 
     Character enemy;
+
+    [SerializeField]
+    PopUp GameOverPopUp;
 
     public int Score;
     int enemyCount = 0;
@@ -72,7 +74,12 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void FocusTextInput()
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void FocusText()
     {
         TextInput.Select();
         TextInput.ActivateInputField();
@@ -99,6 +106,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gameOver)
+        {
+            TextInput.DeactivateInputField();
+            return;
+        }
         if (timeOut >= 0)
         {
             timeOut -= Time.deltaTime;
@@ -147,11 +159,9 @@ public class GameManager : MonoBehaviour
     {
         if (IsPlayer)
         {
-            TextInput.DeactivateInputField();
             soundManager.PlaySFX("Lose");
             gameOver = true;
-            Time.timeScale = 0f;
-            GameEnds.Invoke(false);
+            GameOverPopUp.Show();
         }
         else
         {
@@ -209,8 +219,6 @@ public class GameManager : MonoBehaviour
 
     public void onInputTextChange(string name)
     {
-        print(name);
-        if (gameOver) return;
         TextInput.ActivateInputField();
         if (name.Trim().Length == 0) return;
         if (name[name.Length - 1] == ' ')

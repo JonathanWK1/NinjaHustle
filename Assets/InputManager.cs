@@ -6,11 +6,9 @@ public class InputManager : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
-    Canvas helpCanvas;
-    void Start()
-    {
-        
-    }
+    PopUp helpPopUp;
+    [SerializeField]
+    PopUp pausePopUp;
 
     // Update is called once per frame
     void Update()
@@ -22,7 +20,12 @@ public class InputManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            helpCanvas.enabled = !helpCanvas.enabled;
+            helpPopUp.Toggle();
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pausePopUp.Toggle();
+        }
+
     }
 }

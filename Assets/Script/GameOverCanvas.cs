@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class GameOverCanvas : MonoBehaviour
@@ -10,24 +11,17 @@ public class GameOverCanvas : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI scoreTextValue;
 
-    [SerializeField]
-    Button retryButton;
-
     GameManager gameManager;
-    Canvas canvas;
+    PopUp popUp;
     void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
-        canvas = GetComponent<Canvas>();
-        gameManager.GameEnds.AddListener(ShowCanvas);
+        popUp = GetComponent<PopUp>();
     }
 
-    void ShowCanvas(bool Win)
+    public void SetScore()
     {
         scoreTextValue.text = gameManager.Score.ToString();
-        GameObject myEventSystem = GameObject.Find("EventSystem");
-        myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(retryButton.gameObject);
-        canvas.enabled = true;
-        retryButton.Select();
+        Time.timeScale = 0f;
     }
 }
